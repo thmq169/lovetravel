@@ -1,0 +1,116 @@
+/* Tablet And Mobile */
+@media (max-width:1023px){
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .header-menu-wrapper{
+        justify-content: center;
+    }
+
+    .header-mobile-menu-bar{
+        display: block;
+    }
+
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+
+    .banner-search-wrapper{
+        bottom: 30px;
+    }
+
+    .section-places-package{
+        background-color: unset;
+    }
+
+    .section-places-pay{
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .section-places-pay .section-places-pay-price{
+        font-size: 2rem;
+        padding: 0 15px;
+        min-width: 100px;
+        text-align: center;
+    }
+
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-heading{
+        text-align: center;
+    }
+
+    .footer-info{
+       text-align: center;
+    }
+
+    .footer-socials-list{
+        justify-content: center;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .footer-info{
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px){
+    .section,
+    .footer,
+    .footer-copyright,
+    .banner-search-wrapper{
+        padding: 20px;
+    }
+
+    .banner-search-link{
+        text-align: center;
+    }
+
+    .banner-search-link i{
+        padding: 5px;
+    }
+
+    .section-title{
+        line-height: 4rem;
+    }
+
+    .section-bonnus{
+        display: unset;
+        padding-top: unset;
+    }
+
+    .banner-search-wrapper{
+        bottom: 0px;
+    }
+
+    .banner-search-advanced{
+        margin: 0 20px;
+        top:84px;
+    }
+
+    .banner-content{
+        padding: 30px;
+    }
+
+    .footer-form{
+        display: unset;
+    }
+
+    .footer-input{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .footer-btn{
+        width: 100%;
+    }
+}
