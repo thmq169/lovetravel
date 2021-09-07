@@ -634,6 +634,10 @@
     margin-top: 20px;
 }
 
+.section-places-detail-btn:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
 .section-places-price{
     position: absolute;
     top:0;
@@ -749,8 +753,7 @@
 }
 
 .section-places-pay-btn:hover{
-    background-color: var(--white-color);
-    color: var(--black-color);
+    background-color: rgba(255,255,255,0.2);
 }
 
 .section-contact{
@@ -987,6 +990,10 @@ select.section-contact-input{
     display: block;
     color: var(--white-color);
     font-size: 2.2rem;
+}
+
+.footer-socials-link:hover{
+    color: rgba(255,255,255,0.6);
 }
 
 .footer-form{
