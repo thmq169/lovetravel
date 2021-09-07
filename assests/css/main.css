@@ -860,6 +860,26 @@ select.section-contact-input{
     display: none;
 }
 
+.section-places-sales{
+    position: absolute;
+    top: 20px;
+    right: -65px;
+    background-color: var(--black-color);
+    width: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.section-places-sales-link{
+    font-size: 1.6rem;
+    color: var(--white-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    padding: 6px 0;
+}
+
 /* Banner */
 .banner{
     background: top center / cover no-repeat;
