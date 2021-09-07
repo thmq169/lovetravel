@@ -1046,4 +1046,5 @@ select.section-contact-input{
     color: var(--grey-color);
     padding: 15px 0;
     text-align: center;
+    line-height: 1.4;
 }
